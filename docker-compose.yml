@@ -1,0 +1,9 @@
+
+version: "3.3"
+
+services:
+  railway:
+    build: .
+    restart: on-failure
+    ports:
+      - "80:80"
